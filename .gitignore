@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Node / frontend
+node_modules/
+webapp/frontend/dist/
+webapp/frontend/tsconfig.tsbuildinfo
+
+# User-uploaded projects (keep store empty in repo)
+webapp/projects/*
+!webapp/projects/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local Claude state
+.claude/
